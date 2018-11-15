@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: let arrow function
+# key: lf
+# --
+let $1 = ($2) => $0;

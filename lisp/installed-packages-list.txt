@@ -1,0 +1,2 @@
+package-activated-list’s value is
+(company-shell company-tern company-web company dash-functional direx fish-mode htmlize magit git-commit ghub let-alist graphql magit-popup dash markdown-mode page-break-lines rjsx-mode js2-mode s smex tern treepy web-completion-data with-editor async yasnippet)

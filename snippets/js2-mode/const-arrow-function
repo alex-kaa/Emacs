@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: const-arrow
+# key: cf
+# --
+const $1 = ($2) => $0;
