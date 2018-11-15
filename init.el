@@ -273,12 +273,8 @@ Version 2015-07-30"
 ;; HTML
 ;; (add-hook 'html-mode-hook 'company-web-html)
 (require 'xah-html-mode)
-(add-to-list 'auto-mode-alist '("\\.html\\'" . xah-html-mode))
+;; (add-to-list 'auto-mode-alist '("\\.html\\'" . xah-html-mode))
 
-;; (defun xah-dired-mode-setup ()
-;;   "A hook for `dired-mode'."
-;;   (dired-hide-details-mode 1))
-;; (add-hook 'dired-mode-hook 'xah-dired-mode-setup)
 (defun kaa-html-company ()
   "Initialise html company completion."
   (set (make-local-variable 'company-backends) '(company-web-html))
