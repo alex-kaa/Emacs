@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: translatex
+# key: translatex
+# --
+transform: translateX($1);
+-webkit-transform: translateX($1);$0

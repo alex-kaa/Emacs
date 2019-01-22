@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: transition
+# key: trs
+# --
+transition: $1;
+-webkit-transition: $1;$0

@@ -46,7 +46,7 @@
  '(org-html-use-unicode-chars t)
  '(package-selected-packages
    (quote
-    (rjsx-mode yasnippet company direx markdown-mode page-break-lines magit fish-mode company-web company-tern tern js2-mode smex company-shell)))
+    (company-php php-mode editorconfig speed-type rjsx-mode yasnippet company direx markdown-mode page-break-lines magit fish-mode company-web company-tern tern js2-mode smex company-shell)))
  '(save-place-mode t)
  '(show-paren-mode t)
  '(size-indication-mode t)
@@ -78,7 +78,6 @@
 (setq-default abbrev-mode nil)
 (setq save-abbrevs 'silently)
 
-(set-background-color "gray8")
 (global-subword-mode 1)
 (delete-selection-mode 1)
 (show-paren-mode 1)
@@ -147,7 +146,7 @@
 ;;   )
 
 
-;; No autosave.
+;; Don't autosave.
 (setq auto-save-default nil)
 (setq create-lockfiles nil)
 
@@ -178,8 +177,8 @@
 (setq dired-recursive-deletes (quote top)) ; ask once.
 (setq dired-dwim-target t)
 
-(define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)
-(define-key dired-mode-map (kbd "^") (lambda () (interactive) (find-alternate-file "..")))
+(define-key dired-mode-map (kbd "r") 'dired-find-alternate-file)
+(define-key dired-mode-map (kbd "g") (lambda () (interactive) (find-alternate-file "..")))
 
 ;; TODO cycle instead of prompt.
 ;; TODO show/hide hidden?

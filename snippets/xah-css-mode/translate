@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: translate
+# key: translate
+# --
+transform: translate($1);
+-webkit-transform: translate($1);$0
